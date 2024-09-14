@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>AdrianasBakery</h1>
+        <h2>"Amamos lo que hacemos"</h2>
+    </header>
+    
+    <nav>
+        <dl>
+            <dd>
+                <a href="../">Inicio</a>
+            </dd>
+            <dd>
+                <a href="./productos.html">Productos</a>
+            </dd>
+           
+            <dd>
+                <a href="./quienessomos.html">Quienes Somos</a>
+            </dd>
+        </dl>
+    </nav>
+
+
+    <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Nombre:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Correo Electrico:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">En que le ayudamos?:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="enviar" />
+</form>
+</body>
+</html>
